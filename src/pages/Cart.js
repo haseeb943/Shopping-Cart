@@ -99,7 +99,7 @@ const Cart = () => {
 
   return (
 
-    !single.length ? <img className="mx-auto w-1/2 mt-12" src="https://github.com/haseeb943/Shopping-Cart/blob/main/public/images/empty-cart.png" alt="empty-cart" /> :
+    !single.length ? <img className="mx-auto w-1/2 mt-12" src="public/images/empty-cart.png" alt="empty-cart" /> :
     <div className="container mx-auto lg:w-1/2 w-full pb-24">
       <h1 className="my-12 font-bold">Cart items</h1>
       <ul>
